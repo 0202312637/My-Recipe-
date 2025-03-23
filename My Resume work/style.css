@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    
+    
+}
+#head{
+    /* background-repeat: no-repeat ; */
+    /* background-size: cover; */
+    background-image: url("WhatsApp\ Image\ 2025-03-11\ at\ 03.42.33_2305e7e2.jpg");
+    /* background: linear-gradient(gray,lightblue,black); */
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+    margin: 5px;
+    padding: 10px;
+    gap: 100px;
+
+}
+h1{
+    height: 50vh;
+    border: none;
+    margin-top: 30px;
+    color:white;
+    font-size: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+}
+.riceimage img{
+     border-radius: 50%;
+     animation:rotate 10s linear infinite;
+
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+.ingredient{
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+.step{
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+.paragraph{
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+.tr{
+    font-size: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+.ol{
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 20px;
+}
+.tr li{
+    border: 20px;
+}
+h2 strong{
+    color: red;
+    font-weight: bold;
+    font-family: 2rem;
+    animation: rotate 10s liner infinite;
+
+}
